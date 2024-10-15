@@ -10,17 +10,18 @@ Step 2: Install Composer Dependencies
 	composer install
 
 
-Step 4: Set Up Environment Variables
+Step 3: Set Up Environment Variables
 
 	Duplicate the .env.example file and rename it to .env
 	Update the .env file with your database credentials
 
 
-Step 5: Generate Application Key
+Step 4: Generate Application Key
+
 	php artisan key:generate
 
 
-Step 6: Set Up Database
+Step 5: Set Up Database
 
 	1) Create a new MySQL database.
 
@@ -30,11 +31,11 @@ Step 6: Set Up Database
 	3) (Optional) Seed the database with initial data:
 		php artisan db:seed
 
-Step 7: Storage Folder Link
+Step 6: Storage Folder Link
 
 	php artisan storage:link
 
-Step 8: Serve the Application
+Step 7: Serve the Application
 
 	You can run the application using:
 
