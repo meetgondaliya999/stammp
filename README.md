@@ -28,7 +28,7 @@ Step 5: Set Up Database
 	2) Run the database migrations:
 		php artisan migrate
 
-	3) (Optional) Seed the database with initial data:
+	3) Seed the database with initial data:
 		php artisan db:seed
 
 Step 6: Storage Folder Link
@@ -63,3 +63,10 @@ Contact
 	For any questions or support, contact:
 
 	Email: meetgondaliya999@gmail.com
+
+User Login For Credential
+
+    email: demo1@gmail.com
+    password: password
+
+    password same for all email demo1 to demo10 @gmail.com
